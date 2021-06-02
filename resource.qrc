@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>sound/chessone.wav</file>
+        <file>sound/button_clicked.wav</file>
+        <file>Image/new_fengmian.png</file>
+        <file>Image/fengdi.png</file>
+        <file>Image/star6.jpg</file>
+        <file>sound/kawaii.wav</file>
+        <file>Image/qihun.jpg</file>
+        <file>Image/qihun1.jpg.png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
