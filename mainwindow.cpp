@@ -75,8 +75,8 @@ void MainWindow::on_pushButton_3_clicked(){
     typeofgame=3;
     init__(typeofgame);
     srand((unsigned)time(nullptr));
-    suozaiY=rand()%5+qipan_size/2;
-    suozaiX=rand()%5+qipan_size/2;
+    suozaiY=qipan_size/2;
+    suozaiX=qipan_size/2;
     game->board[suozaiX][suozaiY]=1;
     QSound::play(CHESSONE);
     game->player=!game->player;
@@ -260,8 +260,8 @@ void MainWindow::init__(char type){
     suozaiY=-1;
     if(typeofgame==2&&!xianshou){
         srand((unsigned)time(nullptr));
-        suozaiY=rand()%5+qipan_size/2;
-        suozaiX=rand()%5+qipan_size/2;
+        suozaiY=qipan_size/2;
+        suozaiX=qipan_size/2;
         game->clear();
         game->board[suozaiX][suozaiY]=1;
         game->startgame1();
